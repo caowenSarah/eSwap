@@ -1,0 +1,12 @@
+#footer {
+	background-color: gray;
+	color: #DDE2D2;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	/*position: fixed;*/
+	/*bottom:0;*/
+	/*right:0;*/
+	clear: both;
+}

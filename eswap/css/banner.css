@@ -1,0 +1,67 @@
+#banner{
+	background-color: gray;
+	height: 40px;
+	font-size: 18px;
+}
+
+#logo{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#nav a{
+	display: block;
+	width: 80px;
+}
+
+#nav{
+	margin: 0;
+	padding: 0;
+	float: right;
+  margin-top: 10px;
+} 
+
+#nav li{
+	float: left;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li a{
+	color: #FFF;
+	/*background: #ccc;*/
+	height: 25px;
+}
+
+#nav li a:hover{
+	color: #000;
+	background: #999;
+} 
+
+#nav li ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	/*display: none;*/
+}
+
+#nav li ul li{
+	float: none;
+} 
+
+#nav li ul li a{
+	width: 80px;
+	height: 25px;
+	background: #333;
+	color: white;
+}
+
+#nav li ul li a:hover{
+	background: #999;
+	color: black;
+}
+
+#user_name #user_nav{ visibility: hidden; }
+
+a{ text-decoration: none; }

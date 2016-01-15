@@ -1,0 +1,61 @@
+body{
+	background-image: url("/eSwap/images/indexbg.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+div.form_style{
+	background-color: #C4EEFF;
+	width: 600px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+}
+
+form.form_style{
+	padding: 20px 20px 20px 20px;
+	font-size: 11pt;
+
+}
+
+form.form_style div{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+form.form_style label{
+	padding-left: 50px;
+	width:130px;
+    float:left;
+   	font-size: 120%;
+    line-height:24px;
+    font-weight:bold;
+}
+
+form.form_style > input{
+	width: 300px;
+    margin-bottom:5px;
+    line-height:18px;
+    padding:5px 10px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+form.form_style > input.radio{
+	width: 10px;
+}
+
+/*.submit{
+	text-align: center;
+}*/
+
+#signin{
+	text-align: right;
+}
+a{
+	text-decoration: none;
+}

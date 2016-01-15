@@ -1,0 +1,45 @@
+div.form_style{
+	background-color: #C4EEFF;
+	width: 600px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+}
+
+form.form_style{
+	margin-top: 60px;
+	padding: 20px;
+	font-size: 11pt;
+
+}
+
+form.form_style div{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+form.form_style label{
+	padding-left: 50px;
+	width:110px;
+    float:left;
+   	font-size: 120%;
+    line-height:24px;
+    font-weight:bold;
+}
+
+form.form_style > input{
+	width: 300px;
+    margin-bottom:5px;
+    line-height:18px;
+    padding:5px 10px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+/*.submit{
+	text-align: center;
+}*/

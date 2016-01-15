@@ -1,0 +1,106 @@
+body{
+	background-image: url("/eSwap/images/indexbg.jpg");
+	font-family: Georgia, "Times New Roman", serif;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 950px;
+	height: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	/*border-radius: 20px;*/
+	overflow: hidden;
+}
+
+#left_part{
+	background-color: white;
+	width: 600px;
+	height: 360px;
+	float: left;
+}
+
+#right_part{
+	width: 350px;
+	height: 360px;
+	float: right;
+ 	background-color: #C4EEFF;
+}
+
+div.form_style{
+	width: 350px;
+	height: 360px;
+	margin-top: 10%;
+}
+
+form.form_style{
+	margin-top: 70px;
+	padding: 20px;
+	font-size: 11pt;
+}
+
+form.form_style div{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+form.form_style label{
+	padding-left: 10px;
+	width:90px;
+    float:left;
+   	font-size: 120%;
+    line-height:24px;
+    font-weight:bold;
+}
+
+form.form_style input{
+    margin-bottom:5px;
+    line-height:18px;
+    padding:5px 10px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+#signup{ text-align: right; }
+a{ text-decoration: none; }
+
+.single_col{
+	width: 300px;
+	height: 360px;
+	float: left;
+}
+
+.item{
+	width: 300px;
+	height: 120px;
+	margin: 4px;
+}
+
+.item_image, .item_image img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.item_detail{
+	width: 195px;
+	height: 120px;
+	float: left;
+	font-size: 14px;
+	margin-left: 4px;
+}
+.item_detail .item_name{
+	text-align: center;
+	font-family: Georgia;
+	font-size: 18px;
+	color: green;
+}
+
+/* style for fixed text in the barter proposal*/
+.item_detail{ color: gray; font-family: "Times New Roman"; }
+/* style for item description in the barter proposal*/
+.item_detail span{ color: black; font-family: Georgia; }

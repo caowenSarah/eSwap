@@ -1,0 +1,51 @@
+body{
+	background-image: url("/eSwap/images/indexbg.jpg");
+	font-family: Georgia, "Times New Roman", serif;
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	/*border-radius: 20px;*/
+	overflow: hidden;
+	background-color: green;
+}
+
+.single_col{
+	width: 550px;
+	float: left;
+}
+
+.item{
+	width: 550px;
+	margin: 4px;
+	clear: both;
+}
+
+.item_image, .item_image img{
+	width: 300px;
+	float: left;
+}
+.item_detail{
+	width: 240px;
+	float: left;
+	font-size: 18px;
+	margin-left: 4px;
+}
+.item_detail .item_name{
+	text-align: center;
+	font-family: Georgia;
+	font-size: 22px;
+	color: green;
+}
+hr{ clear: both; }
+.refine_btn{ text-align: center; }
+
+/* style for fixed text in the barter proposal*/
+.item_detail{ color: gray; font-family: "Times New Roman"; }
+/* style for item description in the barter proposal*/
+.item_detail span{ color: black; font-family: Georgia; }

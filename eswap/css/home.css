@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#content{
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 15px;
+	border-radius: 10px;
+	box-shadow: 5px 5px gray;
+	overflow: hidden;
+	background-color: rgb(204, 208, 207);
+}
+h1{ text-align: center;}
+#category{
+	width: 200px;
+	font-style: 25px;
+	background-color: rgb(136, 133, 133);
+}
+ul, li{ list-style-type: none; }
+#category ul{ font-size: 30px; font-family: "Times New Roman";}
+#category li{ list-style-type: none; margin: 20px 0 20px 10px; }
+#items{
+	width: 780px;
+	float: left;
+	background-color: white;
+}
+#category, .single_col{ float: left; margin-right: 5px; margin-left: 5px;}
+.single_col{ width: 250px;}
+
+.item{ margin: 5px 0 5px 0; }
+.item_image img{ width: 250px; }
+
+.item_detail .item_name{
+	text-align: center;
+	font-family: Georgia;
+	font-size: 18px;
+	color: green;
+}
+/* style for fixed text in the barter proposal*/
+.item_detail{ color: gray; font-family: "Times New Roman"; }
+/* style for item description in the barter proposal*/
+.item_detail span{ color: black; font-family: Georgia; }
+
+#more{
+	text-align: center; 
+	font-family: "Times New Roman";
+	padding-bottom: 4px;
+	padding-top: 4px;
+	clear: both;
+}
